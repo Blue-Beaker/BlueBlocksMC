@@ -1,0 +1,82 @@
+{
+	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "blocks/waterlily",
+		"texture": "blocks/waterlily"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 1, 16 ],
+			"faces": {
+				"down": { "uv": [ 16, 16, 0, 0 ], "texture": "#texture", "tintindex": 0 },
+				"up": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture", "tintindex": 0 },
+				"north": { "uv": [ 0, 15.749, 16, 15.75 ], "texture": "#texture", "tintindex": 0 },
+				"south": { "uv": [ 0, 15.749, 16, 15.75 ], "texture": "#texture", "tintindex": 0 },
+				"west": { "uv": [ 0, 15.749, 16, 15.75 ], "texture": "#texture", "tintindex": 0 },
+				"east": { "uv": [ 0, 0, 1, 16 ], "texture": "#texture", "rotation": 90, "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 11, 0, 9 ],
+			"to": [ 16, 1, 9.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 15, 5, 16 ], "texture": "#texture", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 11, 0, 7 ],
+			"to": [ 16, 1, 7.001 ],
+			"faces": {
+				"south": { "uv": [ 11, 15, 16, 16 ], "texture": "#texture", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "PlaneX4",
+			"from": [ 11, 0, 7 ],
+			"to": [ 11.001, 1, 9 ],
+			"faces": {
+				"east": { "uv": [ 7, 15, 9, 16 ], "texture": "#texture", "tintindex": 0 }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 225, 0 ],
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"rotation":  [ -90, 0, 0 ],
+			"translation":  [ 0, 0, -3 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

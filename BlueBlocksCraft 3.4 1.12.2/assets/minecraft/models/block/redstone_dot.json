@@ -1,0 +1,23 @@
+{
+	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "blocks/redstone_dust_dot",
+		"texture": "3dres/redstone_dust"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box3",
+			"from": [ 5, 0, 5 ],
+			"to": [ 11, 0.5, 11 ],
+			"faces": {
+				"down": { "uv": [ 5, 5, 11, 11 ], "texture": "#texture", "tintindex": 0 },
+				"up": { "uv": [ 5, 5, 11, 11 ], "texture": "#texture", "tintindex": 0 },
+				"north": { "uv": [ 5, 15, 11, 16 ], "texture": "#texture", "tintindex": 0 },
+				"south": { "uv": [ 5, 15, 11, 16 ], "texture": "#texture", "tintindex": 0 },
+				"west": { "uv": [ 5, 15, 11, 16 ], "texture": "#texture", "tintindex": 0 },
+				"east": { "uv": [ 5, 15, 11, 16 ], "texture": "#texture", "tintindex": 0 }
+			}
+		}
+	]
+}
