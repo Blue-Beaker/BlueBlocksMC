@@ -20,3 +20,5 @@ Autopacking used 7-zip standalone command-line tool which is open-source softwar
 1.14.4:made for MC1.14.x, 1.13,1.15,1.16 usable but unsupported
 
 1.14.4:用于MC1.14.x, 1.13,1.15,1.16 也可用但不受支持
+
+Curseforge:https://www.curseforge.com/minecraft/texture-packs/blueblockscraft/
