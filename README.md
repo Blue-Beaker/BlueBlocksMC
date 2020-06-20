@@ -3,12 +3,8 @@ A resourcepack for minecraft
 
 一个Minecraft资源包
 
-
-
-Installation:Copy version corresponding folder into .minecraft/resourcepacks/ Folder
-
-安装方法：将对应版本的文件夹拖入.minecraft/resourcepacks/文件夹中
-
+New:For Windows users, Batch file added for automactically packing. Run batch file and drag the corresponding zip into your resourcepacks folder.
+新增:Windows用户可以使用自动打包批处理。运行对应的批处理文件,然后将对应版本的zip文件拖入resourcepacks文件夹。
 
 
 1.12.2:made for MC1.12.x, 1.9~1.11 usable but unsupported
