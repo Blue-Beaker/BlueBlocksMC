@@ -1,1 +1,1 @@
-7za u -mx0 BlueBlocksCraft-1.12.zip ".\BlueBlocksCraft 1.12.2\*"
+7za a -mx0 BlueBlocksCraft-1.12.zip ".\BlueBlocksCraft 1.12.2\*"
