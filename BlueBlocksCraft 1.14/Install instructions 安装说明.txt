@@ -1,0 +1,7 @@
+Blueblockscraft 3.4 alpha For MC1.14
+Also compatible on MC1.13, but unsupported
+How to use:
+Drag this pack into your .minecraft/resourcepacks folder, and activate it in Options/Resourcepacks
+也兼容MC1.13,但不受支持
+如何使用：
+将此包拖入.minecraft/resourcepacks文件夹，然后在Options/Resourcepacks里激活
