@@ -1,0 +1,7 @@
+{
+	"__comment": "Designed by Blue_Beaker",
+	"parent":"item/shared/tools/hoe",
+	"textures": {
+		"head": "3dres/tool/hoe/golden"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"__comment": "Designed by Blue_Beaker",
+	"parent":"item/shared/tools/pickaxe",
+	"textures": {
+		"head": "3dres/tool/pickaxe/diamond"
+	}
+}
