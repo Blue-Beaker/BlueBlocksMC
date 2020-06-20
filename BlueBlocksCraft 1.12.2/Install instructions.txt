@@ -1,4 +1,4 @@
-Blueblockscraft 3.4 For MC1.12.2
+Blueblockscraft For MC1.12.2
 Also compatible on MC1.9~1.11, but unsupported
 How to use:
 Drag this pack into your .minecraft/resourcepacks folder, and activate it in Options/Resourcepacks
