@@ -3,9 +3,9 @@ A resourcepack for minecraft
 
 一个Minecraft资源包
 
-New:For Windows users, Batch file added for automactically packing. Run batch file and drag the corresponding zip into your resourcepacks folder.
+New:For Windows/Linux users, Batch/Shell script file added for automactically packing. Run batch/script file then drag the corresponding zip into your resourcepacks folder.
 
-新增:Windows用户可以使用自动打包批处理。运行对应的批处理文件,然后将对应版本的zip文件拖入resourcepacks文件夹。
+新增:Windows和Linux用户可以使用自动打包批处理/Shell脚本。运行对应的批处理/脚本文件,然后将生成的对应版本的zip文件拖入resourcepacks文件夹。
 
 
 
@@ -24,4 +24,4 @@ New:For Windows users, Batch file added for automactically packing. Run batch fi
 
 Curseforge:https://www.curseforge.com/minecraft/texture-packs/blueblockscraft/
 
-Autopacking used 7-zip standalone command-line tool which is open-source software:https://www.7-zip.org/
+Autopacking for Windows used 7-zip standalone command-line tool which is open-source software:https://www.7-zip.org/
