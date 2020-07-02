@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "3dres/pumpkin/stem",
+		"texture": "3dres/pumpkin/stem"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 7, 0, 7 ],
+			"to": [ 9, 6, 9 ],
+			"faces": {
+				"down": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture", "tintindex": 0 },
+				"up": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture", "tintindex": 0 },
+				"north": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture", "tintindex": 0 },
+				"south": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture", "tintindex": 0 },
+				"west": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture", "tintindex": 0 },
+				"east": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture", "tintindex": 0 }
+			}
+		}
+	]
+}

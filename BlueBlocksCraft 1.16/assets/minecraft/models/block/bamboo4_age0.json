@@ -1,0 +1,48 @@
+{
+	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"all": "block/bamboo_stalk",
+		"particle": "block/bamboo_stalk"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 7, 0, 7 ],
+			"to": [ 9, 16, 9 ],
+			"faces": {
+				"down": { "uv": [ 13, 4, 15, 6 ], "texture": "#all", "cullface": "down" },
+				"up": { "uv": [ 13, 0, 15, 2 ], "texture": "#all", "cullface": "up" },
+				"north": { "uv": [ 9, 0, 11, 16 ], "texture": "#all" },
+				"south": { "uv": [ 9, 0, 11, 16 ], "texture": "#all" },
+				"west": { "uv": [ 9, 0, 11, 16 ], "texture": "#all" },
+				"east": { "uv": [ 9, 0, 11, 16 ], "texture": "#all" }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 6.5, 4, 6.5 ],
+			"to": [ 9.5, 5, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 13, 1, 14, 0 ], "texture": "#all" },
+				"up": { "uv": [ 13, 0, 14, 1 ], "texture": "#all" },
+				"north": { "uv": [ 14, 1, 13, 0 ], "texture": "#all" },
+				"south": { "uv": [ 13, 0, 14, 1 ], "texture": "#all" },
+				"west": { "uv": [ 13, 0, 14, 1 ], "texture": "#all", "rotation": 270 },
+				"east": { "uv": [ 14, 0, 13, 1 ], "texture": "#all", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 6.5, 12, 6.5 ],
+			"to": [ 9.5, 13, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 13, 1, 14, 0 ], "texture": "#all" },
+				"up": { "uv": [ 13, 0, 14, 1 ], "texture": "#all" },
+				"north": { "uv": [ 14, 1, 13, 0 ], "texture": "#all" },
+				"south": { "uv": [ 13, 0, 14, 1 ], "texture": "#all" },
+				"west": { "uv": [ 13, 0, 14, 1 ], "texture": "#all", "rotation": 270 },
+				"east": { "uv": [ 14, 0, 13, 1 ], "texture": "#all", "rotation": 90 }
+			}
+		}
+	]
+}

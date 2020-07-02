@@ -1,5 +1,0 @@
-Blueblockscraft alpha For MC1.14
-How to use:
-Drag this pack into your .minecraft/resourcepacks folder, and activate it in Options/Resourcepacks
-如何使用：
-将此包拖入.minecraft/resourcepacks文件夹，然后在Options/Resourcepacks里激活
