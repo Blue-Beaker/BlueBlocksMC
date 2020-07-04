@@ -5,6 +5,7 @@
 		"bottom": "3dres/observer/observer_back",
 		"side": "3dres/observer/observer_side",
 		"top": "3dres/observer/observer_top",
+		"particle": "3dres/observer/observer_front",
 		"front": "3dres/observer/observer_front"
 	},
 	"elements": [
