@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"rail": "3dres/rails"
+		"rail": "3dres/rails",
 		"particle": "3dres/rail_particle"
 	},
 	"elements": [ 	 
