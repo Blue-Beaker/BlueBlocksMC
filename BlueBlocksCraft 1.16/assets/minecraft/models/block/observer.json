@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made by Blue_Beaker with Blockbench",
 	"parent": "block/block",
 	"textures": {
 		"bottom": "3dres/observer/observer_back",
@@ -244,5 +244,6 @@
 				"down": {"uv": [0, 0, 1, 16], "rotation": 270, "texture": "#side", "cullface": "down"}
 			}
 		}
-	]
+	],
+	"display": {}
 }
