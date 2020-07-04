@@ -1,0 +1,7 @@
+{
+    "parent": "block/observer",
+    "textures": {
+        "bottom": "3dres/observer/observer_back_lit",
+        "front": "3dres/observer/observer_front_lit"
+    }
+}

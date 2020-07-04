@@ -5,7 +5,6 @@
 		"bottom": "3dres/observer/observer_back",
 		"side": "3dres/observer/observer_side",
 		"top": "3dres/observer/observer_top",
-		"particle": "blocks/observer_front",
 		"front": "3dres/observer/observer_front"
 	},
 	"elements": [
@@ -74,8 +73,8 @@
 			}
 		},
 		{
-			"from": [0, 11, 0],
-			"to": [1, 12, 16],
+			"from": [0, 11, 1],
+			"to": [1, 12, 15],
 			"rotation": {"angle": 0, "axis": "x", "origin": [8, 4, 8]},
 			"faces": {
 				"west": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#side", "cullface": "west"},
@@ -84,8 +83,8 @@
 			}
 		},
 		{
-			"from": [0, 4, 0],
-			"to": [1, 5, 16],
+			"from": [0, 4, 1],
+			"to": [1, 5, 15],
 			"rotation": {"angle": 0, "axis": "x", "origin": [8, -3, 8]},
 			"faces": {
 				"west": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#side", "cullface": "west"},
@@ -104,8 +103,8 @@
 			}
 		},
 		{
-			"from": [0, 11, 0],
-			"to": [16, 12, 1],
+			"from": [1, 11, 0],
+			"to": [15, 12, 1],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#side", "cullface": "north"},
@@ -165,8 +164,8 @@
 			}
 		},
 		{
-			"from": [15, 11, 0],
-			"to": [16, 12, 16],
+			"from": [15, 11, 1],
+			"to": [16, 12, 15],
 			"rotation": {"angle": 0, "axis": "x", "origin": [8, 4, 8]},
 			"faces": {
 				"east": {"uv": [0, 0, 16, 1], "rotation": 270, "texture": "#side", "cullface": "east"},
@@ -175,8 +174,8 @@
 			}
 		},
 		{
-			"from": [15, 4, 0],
-			"to": [16, 5, 16],
+			"from": [15, 4, 1],
+			"to": [16, 5, 15],
 			"rotation": {"angle": 0, "axis": "x", "origin": [8, -3, 8]},
 			"faces": {
 				"east": {"uv": [0, 0, 16, 1], "rotation": 270, "texture": "#side", "cullface": "east"},
@@ -195,8 +194,8 @@
 			}
 		},
 		{
-			"from": [0, 11, 15],
-			"to": [16, 12, 16],
+			"from": [1, 11, 15],
+			"to": [15, 12, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
 			"faces": {
 				"south": {"uv": [0, 0, 16, 1], "rotation": 270, "texture": "#side", "cullface": "south"},
@@ -205,8 +204,8 @@
 			}
 		},
 		{
-			"from": [0, 4, 15],
-			"to": [16, 5, 16],
+			"from": [1, 4, 15],
+			"to": [15, 5, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -3, 8]},
 			"faces": {
 				"south": {"uv": [0, 0, 16, 1], "rotation": 270, "texture": "#side", "cullface": "south"},
