@@ -1,6 +1,6 @@
 {
 	"__comment": "Designed by Blue_Beaker",
-	"parent":"item/shared/ingots",
+	"parent":"item/shared/nuggets",
 	"textures": {
 		"texture": "3dres/material/ingot/gold"
 	}
