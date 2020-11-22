@@ -6,8 +6,8 @@
 		"side": "block/furnace_side",
 		"front": "3dres/furnace/furnace_front_off",
 		"coal": "block/coal_block",
-		"fire": "block/fire_0",
-		"fire1": "block/fire_1",
+		"fire": "3dres/furnace/fire_0",
+		"fire1": "3dres/furnace/fire_1",
 		"lava": "block/lava_still"
 	},
 	"elements": [ 	 
