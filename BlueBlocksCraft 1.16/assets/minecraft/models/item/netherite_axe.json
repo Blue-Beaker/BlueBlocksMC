@@ -1,0 +1,7 @@
+{
+	"__comment": "Designed by Blue_Beaker",
+	"parent":"item/shared/tools/axe",
+	"textures": {
+		"head": "3dres/tool/axe/netherite"
+	}
+}
