@@ -4,6 +4,7 @@
 		"particle": "item/barrier",
 		"texture": "3dres/barrier"
 	},
+	"gui_light": "front",
 	"elements": [ 	 
 		{
 			"__comment": "Box1",

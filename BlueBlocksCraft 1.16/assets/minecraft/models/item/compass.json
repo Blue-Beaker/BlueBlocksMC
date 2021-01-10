@@ -3,6 +3,7 @@
     "textures": {
         "layer0": "item/compass_16"
     },
+	"gui_light": "front",
     "overrides": [
         { "predicate": { "angle": 0.00000 }, "model": "item/compass_00" },
         { "predicate": { "angle": 0.03125 }, "model": "item/compass_01" },

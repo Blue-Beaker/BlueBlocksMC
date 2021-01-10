@@ -4,6 +4,7 @@
 		"stick": "3dres/tool/stick",
 		"particle": "#head"
 	},
+	"gui_light":"front",
 	"elements": [
 		{
 			"name": "Box1",

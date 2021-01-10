@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by  with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"layer0": "3dres/slime_ball",
+		"particle": "3dres/slime_ball",
 		"texture": "3dres/slime_ball"
 	},
 	"elements": [ 	 

@@ -2,6 +2,7 @@
     "parent": "item/generated",
     "textures": {
     },
+	"gui_light": "front",
     "overrides": [
         { "predicate": { "time": 0.00000 }, "model": "item/clock_00" },
         { "predicate": { "time": 0.03125 }, "model": "item/clock_01" },

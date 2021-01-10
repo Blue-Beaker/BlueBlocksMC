@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "block/flower_blue_orchid",
+		"particle": "block/blue_orchid",
 		"texture": "3dres/flowers/flower_blue_orchid"
 	},
 	"elements": [ 	 

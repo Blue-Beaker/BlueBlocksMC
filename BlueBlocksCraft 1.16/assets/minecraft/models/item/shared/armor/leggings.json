@@ -2,6 +2,7 @@
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
 	},
+	"gui_light":"front",
 	"elements": [ 	 
 		{
 			"__comment": "PlaneX14",

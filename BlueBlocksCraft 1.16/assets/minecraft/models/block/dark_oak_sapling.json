@@ -3,7 +3,7 @@
 	"textures": {
 		"log": "3dres/tree/log_big_oak",
 		"leaves": "3dres/tree/leaves_big_oak",
-		"particle": "block/sapling_roofed_oak"
+		"particle": "block/dark_oak_sapling"
 	},
 	"elements": [ 	 
 		{

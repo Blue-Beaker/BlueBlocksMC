@@ -5,6 +5,7 @@
 		"texture1": "3dres/tool/string",
 		"texture2": "3dres/tool/fishing_rod"
 	},
+	"gui_light":"front",
 	"elements": [ 	 
 		{
 			"__comment": "Box1",

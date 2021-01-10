@@ -3,7 +3,7 @@
 	"textures": {
 		"log": "3dres/tree/log_acacia",
 		"leaves": "3dres/tree/leaves_acacia",
-		"particle": "block/sapling_acacia"
+		"particle": "block/acacia_sapling"
 	},
 	"elements": [ 	 
 		{

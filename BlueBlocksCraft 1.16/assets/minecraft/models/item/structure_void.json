@@ -4,6 +4,7 @@
 		"particle": "item/structure_void",
 		"texture": "3dres/structure_void"
 	},
+	"gui_light": "front",
 	"elements": [ 	 
 		{
 			"__comment": "Box1",

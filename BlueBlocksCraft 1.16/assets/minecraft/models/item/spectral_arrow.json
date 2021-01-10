@@ -1,25 +1,29 @@
 {
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"texture": "entity/projectiles/spectral_arrow"
+		"texture": "entity/projectiles/spectral_arrow",
+		"texture1": "entity/projectiles/spectral_arrow"
 	},
+	"gui_light":"front",
 	"elements": [ 	 
 		{
 			"__comment": "PlaneY2",
-			"from": [ 0, 8, 5.5 ],
-			"to": [ 16, 8.001, 10.5 ],
+			"from": [ 7.9991, 0, 5.5 ],
+			"to": [ 8.0001, 16, 10.5 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -45 },
 			"faces": {
-				"down": { "uv": [ 0, 0, 8, 2.5 ], "texture": "#texture" },
-				"up": { "uv": [ 0, 0, 8, 2.5 ], "texture": "#texture" }
+				"west": { "uv": [ 8, 0, 0, 2.5 ], "texture": "#texture", "rotation": 90 },
+				"east": { "uv": [ 0, 0, 8, 2.5 ], "texture": "#texture", "rotation": 270 }
 			}
 		},
 		{
 			"__comment": "PlaneZ4",
-			"from": [ 0, 5.5, 8 ],
-			"to": [ 16, 10.5, 8.001 ],
+			"from": [ 5.5002, 0, 8 ],
+			"to": [ 10.5002, 16, 8.001 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -45 },
 			"faces": {
-				"north": { "uv": [ 8, 0, 0, 2.5 ], "texture": "#texture" },
-				"south": { "uv": [ 0, 0, 8, 2.5 ], "texture": "#texture" }
+				"north": { "uv": [ 8, 0, 0, 2.5 ], "texture": "#texture", "rotation": 90 },
+				"south": { "uv": [ 0, 0, 8, 2.5 ], "texture": "#texture", "rotation": 270 }
 			}
 		}
 	],
@@ -43,9 +47,12 @@
 		"gui": {
 			"scale":  [ 0.9, 0.9, 0.9 ]
 		},
+		"ground": {
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
 		"fixed": {
-			"rotation":  [ 0, 180, 45 ],
-			"scale":  [ 0.9, 0.9, 0.9 ]
+			"rotation":  [ 0, 180, 0 ]
 		}
 	}
 }

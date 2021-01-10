@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "block/flower_oxeye_daisy",
+		"particle": "block/oxeye_daisy",
 		"texture": "3dres/flowers/flower_oxeye_daisy"
 	},
 	"elements": [ 	 
