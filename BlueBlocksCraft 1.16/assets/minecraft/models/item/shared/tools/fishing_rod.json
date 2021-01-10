@@ -3,6 +3,7 @@
 	"textures": {
 		"texture1": "3dres/tool/string"
 	},
+	"gui_light":"front",
 	"elements": [
 		{
 			"name": "Box1",

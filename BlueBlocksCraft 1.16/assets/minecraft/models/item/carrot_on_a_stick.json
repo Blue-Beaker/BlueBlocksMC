@@ -6,6 +6,7 @@
 		"texture2": "3dres/tool/fishing_rod",
 		"texture3": "3dres/carrot"
 	},
+	"gui_light":"front",
 	"elements": [ 	 
 		{
 			"__comment": "Box1",

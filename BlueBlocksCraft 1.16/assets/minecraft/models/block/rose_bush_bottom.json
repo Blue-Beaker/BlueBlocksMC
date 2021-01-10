@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "block/double_plant_rose_bottom",
+		"particle": "block/rose_bush_bottom",
 		"texture": "3dres/flowers/double_plant_rose"
 	},
 	"elements": [ 	 

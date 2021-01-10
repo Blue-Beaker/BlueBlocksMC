@@ -3,7 +3,7 @@
 	"textures": {
 		"log": "3dres/tree/log_jungle",
 		"leaves": "3dres/tree/leaves_jungle",
-		"particle": "block/sapling_jungle"
+		"particle": "block/jungle_sapling"
 	},
 	"elements": [ 	 
 		{

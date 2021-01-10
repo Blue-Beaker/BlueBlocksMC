@@ -3,7 +3,7 @@
 	"parent": "block/crop",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/potatoes_stage_0",
+		"particle": "block/potatoes_stage3",
 		"texture": "3dres/crops/potatoes_stage_3"
 	},
 	"elements": [ 	 

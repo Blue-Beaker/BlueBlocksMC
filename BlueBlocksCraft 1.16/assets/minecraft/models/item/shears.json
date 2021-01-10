@@ -4,6 +4,7 @@
 		"stick": "3dres/tool/stick",
 		"head": "3dres/tool/shears"
 	},
+	"gui_light":"front",
 	"elements": [ 	 
 		{
 			"__comment": "Box1",

@@ -5,6 +5,7 @@
 		"texture": "3dres/bamboo_stalk",
 		"texture1": "3dres/bamboo_singleleaf"
 	},
+	"gui_light": "front",
 	"elements": [ 	 
 		{
 			"__comment": "Box1",

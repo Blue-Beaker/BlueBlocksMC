@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "block/flower_tulip_pink",
+		"particle": "block/pink_tulip",
 		"texture": "3dres/flowers/flower_tulip_pink"
 	},
 	"elements": [ 	 
