@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "item/barrier",
+		"particle": "items/barrier",
 		"texture": "3dres/barrier"
 	},
 	"elements": [ 	 
