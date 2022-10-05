@@ -1,63 +1,69 @@
 {
-	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
+	"credit": "Made with Blockbench",
 	"parent": "block/crop",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/potatoes_stage0",
-		"texture": "3dres/crops/stage_01"
+		"1": "3dres/crops/crops",
+		"2": "3dres/crops/crops0",
+		"particle": "3dres/crops/crops"
 	},
-	"elements": [ 	 
+	"elements": [
 		{
-			"__comment": "Box5",
-			"from": [ 4, -1, 11 ],
-			"to": [ 5, 1, 12 ],
+			"name": "leaf0",
+			"from": [4, -2, 4],
+			"to": [12, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -3, 0]},
 			"faces": {
-				"down": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"up": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"north": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"south": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"west": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"east": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" }
+				"north": {"uv": [0, 13, 8, 16], "texture": "#1"},
+				"east": {"uv": [0, 13, 8, 16], "texture": "#1"},
+				"south": {"uv": [0, 13, 8, 16], "texture": "#1"},
+				"west": {"uv": [0, 13, 8, 16], "texture": "#1"},
+				"up": {"uv": [0, 8, 8, 16], "texture": "#2"}
 			}
 		},
 		{
-			"__comment": "Box5",
-			"from": [ 4, -1, 4 ],
-			"to": [ 5, 1, 5 ],
+			"name": "leaf0_in",
+			"from": [11, -2, 4],
+			"to": [11, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -3, 8]},
 			"faces": {
-				"down": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"up": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"north": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"south": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"west": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"east": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" }
+				"west": {"uv": [0, 13, 8, 16], "texture": "#1"}
 			}
 		},
 		{
-			"__comment": "Box5",
-			"from": [ 11, -1, 4 ],
-			"to": [ 12, 1, 5 ],
+			"name": "leaf0_in",
+			"from": [5, -2, 4],
+			"to": [5, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -3, 8]},
 			"faces": {
-				"down": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"up": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"north": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"south": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"west": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"east": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" }
+				"east": {"uv": [0, 13, 8, 16], "texture": "#1"}
 			}
 		},
 		{
-			"__comment": "Box5",
-			"from": [ 11, -1, 11 ],
-			"to": [ 12, 1, 12 ],
+			"name": "leaf0_in",
+			"from": [4, -2, 11],
+			"to": [12, 1, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -3, 8]},
 			"faces": {
-				"down": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"up": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"north": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"south": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"west": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
-				"east": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" }
+				"north": {"uv": [0, 13, 8, 16], "texture": "#1"}
 			}
+		},
+		{
+			"name": "leaf0_in",
+			"from": [4, -2, 5],
+			"to": [12, 1, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -3, 8]},
+			"faces": {
+				"south": {"uv": [0, 13, 8, 16], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "leaf0",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
 		}
 	]
 }
