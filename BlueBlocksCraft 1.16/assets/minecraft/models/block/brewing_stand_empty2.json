@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "3dres/brewing_stand",
+		"particle": "block/brewing_stand"
+	},
+	"elements": [
+		{
+			"from": [8.5, 12, 8],
+			"to": [9.5, 13, 11],
+			"rotation": {"angle": -45, "axis": "y", "origin": [9, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 2, 6, 4], "texture": "#1"},
+				"west": {"uv": [6, 2, 0, 4], "texture": "#1"},
+				"up": {"uv": [7, 2, 2, 3], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [7, 3, 2, 4], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.5, 8, 10],
+			"to": [9.5, 13, 11],
+			"rotation": {"angle": -45, "axis": "y", "origin": [9, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 4, 7, 3], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [2, 4, 7, 2], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [2, 3, 7, 2], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [2, 4, 7, 2], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [2, 4, 7, 2], "rotation": 180, "texture": "#1"}
+			}
+		}
+	]
+}
