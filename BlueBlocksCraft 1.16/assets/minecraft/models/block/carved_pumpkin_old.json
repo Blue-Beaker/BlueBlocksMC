@@ -206,11 +206,4 @@
 			"scale":  [ 0.5, 0.5, 0.5 ]
 		}
 	}
-}{
-    "parent": "block/orientable",
-    "textures": {
-        "top": "block/pumpkin_top",
-        "front": "block/carved_pumpkin",
-        "side": "block/pumpkin_side"
-    }
 }
