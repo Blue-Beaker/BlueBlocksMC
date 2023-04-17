@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "3dres/reeds_top",
-		"particle": "block/sugar_cane"
+		"particle": "3dres/sugar_cane"
 	},
 	"elements": [
 		{

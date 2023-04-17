@@ -3,7 +3,7 @@
 	"textures": {
 		"2": "3dres/reeds_top",
 		"3": "3dres/reeds_item",
-		"particle": "block/sugar_cane"
+		"particle": "3dres/sugar_cane"
 	},
 	"elements": [
 		{
