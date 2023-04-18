@@ -1,6 +1,7 @@
 {
 	"credit": "Made by Blue_Beaker with Blockbench",
 	"textures": {
+		"particle":"#texture"
 	},
 	"gui_light":"front",
 	"elements": [
