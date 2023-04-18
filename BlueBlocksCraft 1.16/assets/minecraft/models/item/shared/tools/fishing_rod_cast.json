@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture1": "3dres/tool/string"
+		"texture1": "3dres/tool/string",
+		"particle":"#texture2"
 	},
 	"gui_light":"front",
 	"elements": [
