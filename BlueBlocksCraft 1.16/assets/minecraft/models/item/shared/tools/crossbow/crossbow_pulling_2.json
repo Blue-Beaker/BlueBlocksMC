@@ -1,0 +1,157 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/shared/tools/crossbow/crossbow",
+	"textures": {
+		"string": "3dres/tool/string",
+		"particle": "3dres/tool/crossbow",
+		"bow": "3dres/tool/crossbow"
+	},
+	"elements": [
+		{
+			"name": "Box4",
+			"from": [6.5, 5, 7.5],
+			"to": [7.5, 14, 8.5],
+			"rotation": {"angle": -45, "axis": "z", "origin": [7.5, 14, 7.5]},
+			"faces": {
+				"north": {"uv": [5.5, 0.5, 6.5, 8], "texture": "#string"},
+				"east": {"uv": [7.5, 0.5, 8.5, 8], "texture": "#string"},
+				"south": {"uv": [9.5, 0.5, 10.5, 8], "texture": "#string"},
+				"west": {"uv": [7.5, 0.5, 8.5, 8], "texture": "#string"},
+				"up": {"uv": [7.5, 5.5, 8.5, 6.5], "rotation": 90, "texture": "#string"},
+				"down": {"uv": [7.5, 9.5, 8.5, 10.5], "rotation": 270, "texture": "#string"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [9, 11, 7],
+			"to": [11, 17, 9],
+			"rotation": {"angle": 45, "axis": "z", "origin": [11, 11, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 6], "texture": "#bow"},
+				"east": {"uv": [2, 0, 0, 6], "texture": "#bow"},
+				"south": {"uv": [0, 0, 2, 6], "texture": "#bow"},
+				"west": {"uv": [2, 0, 0, 6], "texture": "#bow"},
+				"up": {"uv": [2, 0, 4, 2], "rotation": 90, "texture": "#bow"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#bow"}
+			}
+		},
+		{
+			"name": "Box4",
+			"from": [6.5, 2, 7.5],
+			"to": [7.5, 11, 8.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.5, 2, 7.5]},
+			"faces": {
+				"north": {"uv": [5.5, 8, 6.5, 15.5], "texture": "#string"},
+				"east": {"uv": [7.5, 8, 8.5, 15.5], "texture": "#string"},
+				"south": {"uv": [9.5, 8, 10.5, 15.5], "texture": "#string"},
+				"west": {"uv": [7.5, 8, 8.5, 15.5], "texture": "#string"},
+				"up": {"uv": [7.5, 5.5, 8.5, 6.5], "rotation": 90, "texture": "#string"},
+				"down": {"uv": [7.5, 9.5, 8.5, 10.5], "rotation": 270, "texture": "#string"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [9, -1, 7],
+			"to": [11, 5, 9],
+			"rotation": {"angle": -45, "axis": "z", "origin": [11, 5, 7]},
+			"faces": {
+				"north": {"uv": [0, 10, 2, 16], "texture": "#bow"},
+				"east": {"uv": [2, 10, 0, 16], "texture": "#bow"},
+				"south": {"uv": [0, 10, 2, 16], "texture": "#bow"},
+				"west": {"uv": [2, 10, 0, 16], "texture": "#bow"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#bow"},
+				"down": {"uv": [2, 0, 4, 2], "rotation": 270, "texture": "#bow"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [9, 5, 7],
+			"to": [11, 11, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 8], "texture": "#bow"},
+				"east": {"uv": [2, 2, 4, 8], "texture": "#bow"},
+				"south": {"uv": [2, 2, 4, 8], "texture": "#bow"},
+				"west": {"uv": [2, 2, 4, 8], "texture": "#bow"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#bow"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#bow"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [1, 6, 9],
+			"to": [11, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 8, 12], "rotation": 270, "texture": "#bow"},
+				"east": {"uv": [4, 0, 8, 2], "rotation": 90, "texture": "#bow"},
+				"south": {"uv": [4, 4, 8, 12], "rotation": 90, "texture": "#bow"},
+				"west": {"uv": [4, 0, 8, 2], "rotation": 90, "texture": "#bow"},
+				"up": {"uv": [8, 4, 10, 12], "rotation": 90, "texture": "#bow"},
+				"down": {"uv": [8, 4, 10, 12], "rotation": 90, "texture": "#bow"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [11, 9.5, 9],
+			"to": [13, 10, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 8, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 2, 8, 4], "rotation": 90, "texture": "#bow"},
+				"south": {"uv": [7.5, 2, 8, 4], "rotation": 90, "texture": "#bow"},
+				"up": {"uv": [8, 2, 8.5, 4], "rotation": 90, "texture": "#bow"},
+				"down": {"uv": [8, 2, 8.5, 4], "rotation": 90, "texture": "#bow"}
+			}
+		},
+		{
+			"name": "Box4",
+			"from": [12.5, 6, 9],
+			"to": [13, 10, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.5, 8, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 2, 8, 4], "rotation": 90, "texture": "#bow"},
+				"east": {"uv": [4, 2, 8, 2.5], "rotation": 90, "texture": "#bow"},
+				"south": {"uv": [7.5, 2, 8, 4], "rotation": 90, "texture": "#bow"},
+				"west": {"uv": [4, 2, 8, 2.5], "rotation": 90, "texture": "#bow"}
+			}
+		},
+		{
+			"name": "Box4",
+			"from": [11, 6, 9],
+			"to": [13, 6.5, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 4.5, 8]},
+			"faces": {
+				"north": {"uv": [4, 2, 4.5, 4], "rotation": 90, "texture": "#bow"},
+				"south": {"uv": [4, 2, 4.5, 4], "rotation": 90, "texture": "#bow"},
+				"up": {"uv": [8, 2, 8.5, 4], "rotation": 90, "texture": "#bow"},
+				"down": {"uv": [8, 2, 8.5, 4], "rotation": 90, "texture": "#bow"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [2.75, 7.5, 8],
+			"to": [3.75, 8.5, 9],
+			"rotation": {"angle": 45, "axis": "z", "origin": [3.25, 8, 8]},
+			"faces": {
+				"north": {"uv": [10, 2, 12, 4], "rotation": 180, "texture": "#bow"},
+				"east": {"uv": [8, 2, 10, 4], "rotation": 90, "texture": "#bow"},
+				"west": {"uv": [8, 2, 10, 4], "rotation": 270, "texture": "#bow"},
+				"up": {"uv": [8, 2, 10, 4], "texture": "#bow"},
+				"down": {"uv": [8, 2, 10, 4], "rotation": 180, "texture": "#bow"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		{
+			"name": "group",
+			"origin": [5, 8, 8],
+			"color": 0,
+			"children": [5, 6, 7, 8, 9]
+		}
+	]
+}
