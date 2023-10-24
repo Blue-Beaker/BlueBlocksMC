@@ -12,6 +12,8 @@ jobs:
   pack:
     runs-on: ubuntu-latest
     steps:
+    - name: Check out repo's default branch
+      uses: actions/checkout@v4
     - name: Pack up
       run: |
         sh Pack112.sh
@@ -21,11 +23,11 @@ jobs:
       with:    
         name: BlueBlocksCraft-1.12.zip
         path: BlueBlocksCraft-1.12.zip
-        retention-days: 5
+        retention-days: 15
           
     - name: 'Upload 1.16'
       uses: actions/upload-artifact@v3
       with:    
         name: BlueBlocksCraft-1.16.zip
         path: BlueBlocksCraft-1.16.zip
-        retention-days: 5
+        retention-days: 15
