@@ -1,0 +1,30 @@
+
+name: Pack Up
+
+on:
+  push:
+    branches:
+    - main
+    - release/*
+
+jobs:
+  pack:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Pack up
+      run: |
+        sh Pack112.sh
+        sh Pack116.sh
+    - name: 'Upload 1.12'
+      uses: actions/upload-artifact@v3
+      with:    
+        name: BlueBlocksCraft-1.12.zip
+        path: BlueBlocksCraft-1.12.zip
+        retention-days: 5
+          
+    - name: 'Upload 1.16'
+      uses: actions/upload-artifact@v3
+      with:    
+        name: BlueBlocksCraft-1.16.zip
+        path: BlueBlocksCraft-1.16.zip
+        retention-days: 5
