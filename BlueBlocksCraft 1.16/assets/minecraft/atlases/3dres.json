@@ -1,0 +1,9 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "3dres",
+            "prefix": "3dres/"
+        }
+    ]
+}
