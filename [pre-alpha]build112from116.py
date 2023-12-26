@@ -1,8 +1,29 @@
 #! /bin/python3
-import os,sys,shutil,json
+import os,sys,shutil,json,traceback
 import re
 
 from matplotlib.font_manager import json_dump
+
+def convertModel(model:dict):
+    if(not model.keys().__contains__("textures")):
+        return model
+    textureDict=model["textures"]
+    for texture in textureDict.keys():
+        for item in mappingsTexture.keys():
+            renamedTexture=re.sub(item,mappingsTexture[item],textureDict[texture])
+            if renamedTexture!=textureDict[texture]:
+                textureDict[texture]=renamedTexture
+        for item in mappingsTextureFolder.keys():
+            renamedTexture=re.sub(item,mappingsTextureFolder[item],textureDict[texture])
+            if renamedTexture!=textureDict[texture]:
+                textureDict[texture]=renamedTexture
+    return model
+
+
+
+
+
+
 os.chdir(sys.path[0])
 input_pack="BlueBlocksCraft 1.16"
 output_pack="BlueBlocksMC 1.12[Auto-Generated]"
@@ -39,22 +60,12 @@ for folder in filelist:
             try:
                 with open(filepath,"r") as modelfile:
                     model=json.load(modelfile)
-                try:
-                    textureDict=model["textures"]
-                    for texture in textureDict.keys():
-                        for item in mappingsTexture.keys():
-                            renamedTexture=re.sub(item,mappingsTexture[item],textureDict[texture])
-                            if renamedTexture!=textureDict[texture]:
-                                textureDict[texture]=renamedTexture
-                        for item in mappingsTextureFolder.keys():
-                            renamedTexture=re.sub(item,mappingsTextureFolder[item],textureDict[texture])
-                            if renamedTexture!=textureDict[texture]:
-                                textureDict[texture]=renamedTexture
-                except:
-                    pass
+                model=convertModel(model)
                 json_dump(model,filepath)
             except Exception as exception:
                 print(filepath,exception)
+                traceback.print_exc()
+        print(re.match("(./assets/minecraft/textures/|\.(png|png\.mcmeta)",filepath))
         matchName=re.sub("(^\./assets/minecraft/textures/|\.(png|png\.mcmeta)$)","",filepath)
         if matchName in mappingsTexture.keys():  #if it's to be moved
             replaceName=mappingsTexture[matchName]
