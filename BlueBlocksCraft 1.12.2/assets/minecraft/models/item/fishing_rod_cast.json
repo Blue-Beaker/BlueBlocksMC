@@ -1,7 +1,8 @@
 {
-	"__comment": "Designed by Blue_Beaker",
-	"parent":"item/shared/tools/fishing_rod_cast",
-	"textures": {
-		"texture2": "3dres/tool/fishing_rod"
-	}
+  "__comment": "Designed by Blue_Beaker",
+  "parent": "item/shared/tools/fishing_rod_cast",
+  "textures": {
+    "texture2": "3dres/tool/fishing_rod",
+    "particle": "items/fishing_rod_cast"
+  }
 }

@@ -1,15 +1,16 @@
 {
-	"__comment": "Designed by Blue_Beaker",
-	"parent":"item/shared/tools/fishing_rod",
-	"textures": {
-		"texture2": "3dres/tool/fishing_rod"
-	},
-    "overrides": [
-        {
-            "predicate": {
-                "cast": 1
-            },
-            "model": "item/fishing_rod_cast"
-        }
-    ]
+  "__comment": "Designed by Blue_Beaker",
+  "parent": "item/shared/tools/fishing_rod",
+  "textures": {
+    "texture2": "3dres/tool/fishing_rod",
+    "particle": "items/fishing_rod_uncast"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cast": 1
+      },
+      "model": "item/fishing_rod_cast"
+    }
+  ]
 }

@@ -1,12 +1,12 @@
 {
-  "__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
+  "credit": "Made with Blockbench",
   "textures": {
     "texture": "3dres/potion_bottle",
-    "particle": "3dres/blaze_powder"
+    "particle": "items/potion_overlay"
   },
   "elements": [
     {
-      "__comment": "Box1",
+      "name": "Box1",
       "from": [
         3,
         0,
@@ -18,15 +18,6 @@
         13
       ],
       "faces": {
-        "down": {
-          "uv": [
-            0,
-            0,
-            5,
-            5
-          ],
-          "texture": "#texture"
-        },
         "up": {
           "uv": [
             5,
@@ -35,11 +26,20 @@
             5
           ],
           "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            5,
+            5
+          ],
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Box1",
+      "name": "Box1",
       "from": [
         3,
         0,
@@ -72,7 +72,7 @@
       }
     },
     {
-      "__comment": "Box1",
+      "name": "Box1",
       "from": [
         3,
         0,
@@ -105,7 +105,7 @@
       }
     },
     {
-      "__comment": "Box1",
+      "name": "Box1",
       "from": [
         3,
         0,
@@ -117,15 +117,6 @@
         13
       ],
       "faces": {
-        "west": {
-          "uv": [
-            0,
-            0,
-            5,
-            5
-          ],
-          "texture": "#texture"
-        },
         "east": {
           "uv": [
             5,
@@ -134,11 +125,20 @@
             5
           ],
           "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            5,
+            5
+          ],
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Box1",
+      "name": "Box1",
       "from": [
         12,
         0,
@@ -150,15 +150,6 @@
         13
       ],
       "faces": {
-        "west": {
-          "uv": [
-            5,
-            0,
-            10,
-            5
-          ],
-          "texture": "#texture"
-        },
         "east": {
           "uv": [
             0,
@@ -167,11 +158,20 @@
             5
           ],
           "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            5,
+            0,
+            10,
+            5
+          ],
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Box1",
+      "name": "Box1",
       "from": [
         3,
         9,
@@ -183,15 +183,6 @@
         13
       ],
       "faces": {
-        "down": {
-          "uv": [
-            10,
-            5.5,
-            15,
-            10.5
-          ],
-          "texture": "#texture"
-        },
         "up": {
           "uv": [
             10,
@@ -200,11 +191,20 @@
             15.5
           ],
           "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            10,
+            5.5,
+            15,
+            10.5
+          ],
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Box7",
+      "name": "Box7",
       "from": [
         6,
         9,
@@ -216,15 +216,6 @@
         10
       ],
       "faces": {
-        "west": {
-          "uv": [
-            6,
-            6.5,
-            8,
-            8.5
-          ],
-          "texture": "#texture"
-        },
         "east": {
           "uv": [
             8,
@@ -233,11 +224,20 @@
             8.5
           ],
           "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            6,
+            6.5,
+            8,
+            8.5
+          ],
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Box7",
+      "name": "Box7",
       "from": [
         9,
         9,
@@ -249,15 +249,6 @@
         10
       ],
       "faces": {
-        "west": {
-          "uv": [
-            8,
-            6.5,
-            10,
-            8.5
-          ],
-          "texture": "#texture"
-        },
         "east": {
           "uv": [
             6,
@@ -266,11 +257,20 @@
             8.5
           ],
           "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            8,
+            6.5,
+            10,
+            8.5
+          ],
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Box7",
+      "name": "Box7",
       "from": [
         6,
         9,
@@ -303,7 +303,7 @@
       }
     },
     {
-      "__comment": "Box7",
+      "name": "Box7",
       "from": [
         6,
         9,
@@ -336,7 +336,7 @@
       }
     },
     {
-      "__comment": "Box11",
+      "name": "Box11",
       "from": [
         5,
         12,
@@ -348,25 +348,16 @@
         11
       ],
       "faces": {
-        "down": {
-          "uv": [
-            6,
-            10,
-            9,
-            13
-          ],
-          "texture": "#texture"
-        },
-        "up": {
-          "uv": [
-            6,
-            10,
-            9,
-            13
-          ],
-          "texture": "#texture"
-        },
         "north": {
+          "uv": [
+            6,
+            9,
+            9,
+            9.5
+          ],
+          "texture": "#texture"
+        },
+        "east": {
           "uv": [
             6,
             9,
@@ -393,19 +384,28 @@
           ],
           "texture": "#texture"
         },
-        "east": {
+        "up": {
           "uv": [
             6,
+            10,
             9,
+            13
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            6,
+            10,
             9,
-            9.5
+            13
           ],
           "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Box12",
+      "name": "Box12",
       "from": [
         6,
         13,
@@ -417,25 +417,16 @@
         10
       ],
       "faces": {
-        "down": {
-          "uv": [
-            0,
-            5.5,
-            4,
-            9.5
-          ],
-          "texture": "#texture"
-        },
-        "up": {
-          "uv": [
-            0,
-            5.5,
-            4,
-            9.5
-          ],
-          "texture": "#texture"
-        },
         "north": {
+          "uv": [
+            6,
+            5.5,
+            10,
+            6.5
+          ],
+          "texture": "#texture"
+        },
+        "east": {
           "uv": [
             6,
             5.5,
@@ -462,19 +453,28 @@
           ],
           "texture": "#texture"
         },
-        "east": {
+        "up": {
           "uv": [
-            6,
+            0,
             5.5,
-            10,
-            6.5
+            4,
+            9.5
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            0,
+            5.5,
+            4,
+            9.5
           ],
           "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Box12",
+      "name": "Box12",
       "from": [
         7,
         10.5,
@@ -486,16 +486,16 @@
         9
       ],
       "faces": {
-        "down": {
+        "north": {
           "uv": [
             4,
-            5.5,
+            7.5,
             6,
-            7.5
+            10.5
           ],
           "texture": "#texture"
         },
-        "north": {
+        "east": {
           "uv": [
             4,
             7.5,
@@ -522,19 +522,19 @@
           ],
           "texture": "#texture"
         },
-        "east": {
+        "down": {
           "uv": [
             4,
-            7.5,
+            5.5,
             6,
-            10.5
+            7.5
           ],
           "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Box14",
+      "name": "Box14",
       "from": [
         4,
         1,
@@ -546,64 +546,64 @@
         12
       ],
       "faces": {
-        "down": {
-          "uv": [
-            4,
-            4,
-            12,
-            12
-          ],
-          "texture": "#particle",
-          "tintindex": 0
-        },
-        "up": {
-          "uv": [
-            4,
-            4,
-            12,
-            12
-          ],
-          "texture": "#particle",
-          "tintindex": 0
-        },
         "north": {
           "uv": [
-            4,
-            9,
-            12,
-            15
+            10.5,
+            0.5,
+            14.5,
+            4.5
           ],
-          "texture": "#particle",
-          "tintindex": 0
-        },
-        "south": {
-          "uv": [
-            4,
-            9,
-            12,
-            15
-          ],
-          "texture": "#particle",
-          "tintindex": 0
-        },
-        "west": {
-          "uv": [
-            4,
-            9,
-            12,
-            15
-          ],
-          "texture": "#particle",
+          "texture": "#texture",
           "tintindex": 0
         },
         "east": {
           "uv": [
-            4,
-            9,
-            12,
-            15
+            10.5,
+            0.5,
+            14.5,
+            4.5
           ],
-          "texture": "#particle",
+          "texture": "#texture",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            10.5,
+            0.5,
+            14.5,
+            4.5
+          ],
+          "texture": "#texture",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            10.5,
+            0.5,
+            14.5,
+            4.5
+          ],
+          "texture": "#texture",
+          "tintindex": 0
+        },
+        "up": {
+          "uv": [
+            10.5,
+            0.5,
+            14.5,
+            4.5
+          ],
+          "texture": "#texture",
+          "tintindex": 0
+        },
+        "down": {
+          "uv": [
+            10.5,
+            0.5,
+            14.5,
+            4.5
+          ],
+          "texture": "#texture",
           "tintindex": 0
         }
       }
@@ -678,6 +678,18 @@
         0.4
       ]
     },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
     "gui": {
       "rotation": [
         30,
@@ -693,18 +705,6 @@
         0.8,
         0.8,
         0.8
-      ]
-    },
-    "ground": {
-      "translation": [
-        0,
-        2,
-        0
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
       ]
     }
   }

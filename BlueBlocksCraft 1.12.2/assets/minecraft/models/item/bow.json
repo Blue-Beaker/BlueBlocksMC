@@ -1,29 +1,30 @@
 {
-	"__comment": "Designed by Blue_Beaker",
-	"parent":"item/shared/tools/bow",
-	"textures": {
-		"bow": "3dres/tool/bow"
-	},
-    "overrides": [
-        {
-            "predicate": {
-                "pulling": 1
-            },
-            "model": "item/bow_pulling_0"
-        },
-        {
-            "predicate": {
-                "pulling": 1,
-                "pull": 0.65
-            },
-            "model": "item/bow_pulling_1"
-        },
-        {
-            "predicate": {
-                "pulling": 1,
-                "pull": 0.9
-            },
-            "model": "item/bow_pulling_2"
-        }
-    ]
+  "__comment": "Designed by Blue_Beaker",
+  "parent": "item/shared/tools/bow",
+  "textures": {
+    "bow": "3dres/tool/bow",
+    "particle": "items/bow_standby"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 1
+      },
+      "model": "item/bow_pulling_0"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.65
+      },
+      "model": "item/bow_pulling_1"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.9
+      },
+      "model": "item/bow_pulling_2"
+    }
+  ]
 }
