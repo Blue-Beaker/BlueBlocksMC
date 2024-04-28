@@ -1,7 +1,8 @@
 {
-	"__comment": "Designed by Blue_Beaker",
-	"parent":"item/shared/tools/bow_pulling_2",
-	"textures": {
-		"bow": "3dres/tool/bow"
-	}
+  "__comment": "Designed by Blue_Beaker",
+  "parent": "item/shared/tools/bow_pulling_2",
+  "textures": {
+    "bow": "3dres/tool/bow",
+    "particle": "items/bow_pulling_2"
+  }
 }
