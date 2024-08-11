@@ -2,7 +2,7 @@
 	"credit": "Made by Blue_Beaker with Blockbench",
 	"parent": "minecraft:block/block",
 	"textures": {
-		"Bucket": "v3dres/bucket",
+		"Bucket": "3dres/bucket",
 		"fluid": "forge:item/mask/bucket_fluid"
 	},
 	"elements": [
