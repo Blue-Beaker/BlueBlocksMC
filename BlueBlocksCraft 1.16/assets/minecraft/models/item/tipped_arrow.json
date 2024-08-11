@@ -1,8 +1,8 @@
 {
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"texture": "entity/projectiles/tipped_arrow",
-		"texture1": "entity/projectiles/tipped_arrow"
+		"texture": "3dres/projectiles/tipped_arrow",
+		"texture1": "3dres/projectiles/tipped_arrow"
 	},
 	"gui_light":"front",
 	"elements": [ 	 

@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by Blue_Beaker with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"texture": "entity/shulker/shulker"
+		"texture": "3dres/shulker/shulker"
 	},
 	"elements": [ 	 
 		{
